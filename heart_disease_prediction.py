@@ -280,4 +280,4 @@ joblib.dump(model6, filename)
 # if __name__ == '__main__':
 #     main()
 
-!streamlit run app.py & npx localtunnel --port 8501
+#!streamlit run app.py & npx localtunnel --port 8501
