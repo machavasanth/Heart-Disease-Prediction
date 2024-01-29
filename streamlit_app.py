@@ -1,27 +1,14 @@
-
-import pickle
-import joblib
 # importing the library
 
-filename = "trained_model.pkl"
-pickle.dump(model6, open(filename, 'wb'))
-# saving file
-loaded_model = pickle.load(open("trained_model.pkl",'rb'))
-
-filename = 'heart_model.sav'
-joblib.dump(model6, filename)
-
 import streamlit as st
-import joblib
-
 import numpy as np
 import pickle
+import joblib
 
 
 # loading the saved model
+loaded_model = pickle.load(open("trained_model.pkl",'rb'))
 
-
-loaded_model = pickle.load(open('trained_model.pkl','rb'))
 
 # creating a function for prediction
 
