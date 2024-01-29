@@ -176,7 +176,7 @@ loaded_model = pickle.load(open("trained_model.pkl",'rb'))
 
 filename = 'heart_model.sav'
 joblib.dump(model6, filename)
-%%writefile app.py
+# %%writefile app.py
 import streamlit as st
 import joblib
 
