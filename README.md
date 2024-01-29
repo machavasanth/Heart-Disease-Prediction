@@ -1,1 +1,2 @@
 # Heart-Disease-Prediction
+This project aims to predict the risk of heart disease by leveraging data-driven algorithms. By analyzing a comprehensive dataset that includes various health indicators, such as blood pressure, cholesterol levels, age, and lifestyle factors, the model can accurately assess an individual's likelihood of developing heart disease. The project aims to enhance preventive care by providing early risk identification and empowering individuals to make informed decisions about their cardiovascular health.
